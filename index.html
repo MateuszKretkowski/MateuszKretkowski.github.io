@@ -1,64 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
-    <script src="./script.jss" defer></script>
-</head>
-<body>
-    <nav class="nav">
-        <div class="nav_conatainer">
-            <div class="left_side">
-                <img src="" class="logo" alt="">
-                <a href="" class="nav_title">PostoSide</a>
-            </div>
-            <div class="right_side">
-                <a href="" class="nav_link">Projects</a>
-                <a href="" class="nav_link">About</a>
-                <a href="" class="nav_link nav_Contact">Contact Us</a>
-            </div>
-        </div>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/169dda284c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav_container">
+        <li class="nav_link nav_logo">
+          <a href="" class="">PostoSite</a>
+        </li>
+        <ul class="nav_links nav_ul">
+          <li class="nav_link">
+            <a href="" class="nav_link-hover">ABOUT US</a>
+          </li>
+          <li class="nav_link">
+            <a href="" class="nav_link-hover">PROJECTS</a>
+          </li>
+          <li class="nav_link">
+            <a href="" class="nav_link-hover">PRICING</a>
+          </li>
+          <li class="nav_link">
+            <a href="" class="nav_start">START TODAY!</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    <header class="header">
-        <div class="container">
-            <div class="first_section">
-                <h1 class="header_h1">RESPONSIVE</h1>
-                <h1 class="header_h1">GOOD</h1>
-                <h1 class="header_h1">FAST</h1>
-                <p class="header_p">MAKING WEBSITES WITH LOVE IN HEART</p>
-            </div>
-            <div class="second_section">
-                <img src="./assets/asd_adobe_express.svg" class="img" alt="">
-            </div>
+    <header>
+      <div class="container">
+        <div class="header_text_container">
+          <h1 class="title">Websites As You Want.</h1>
+          <ul class="header_ul">
+            <li class="header_li">
+              <i class="fa-solid fa-eye"></i>
+              <h3 class="header_li_desc">Fancy Looks</h3>
+            </li>
+            <li class="header_li">
+              <i class="fa-solid fa-dumbbell"></i>
+              <h3 class="header_li_desc">Strong Design</h3>
+            </li>
+            <li class="header_li">
+              <i class="fa-solid fa-signal"></i>
+              <h3 class="header_li_desc">Full Live Server</h3>
+            </li>
+          </ul>
         </div>
+        <div class="button_wrapper">
+          <button class="button">Start Your Proffesionalism Today!</button>
+        </div>
+      </div>
+      <div class="scroll click"></div>
     </header>
-
-    <section class="about">
-        <div class="a-container">
-            <img src="./assets/phone_adobe_express.svg" class="t_img" alt="">
-            <div class="titles">
-                <h1 class="big_title">ABOUT US</h1>
-                <h1 class="title">Our Team Loves Coding</h1>
+    <section class="benefits">
+      <div class="benefits_container">
+        <div class="benefits_titles">
+          <h1 class="benefits_title">Benefits</h1>
+          <h3 class="benefits_h3">One Of The Many Benefits Of Our Offerts Are..</h3>
+        </div>
+        <div class="benefit_container">
+          <div class="benefit">
+            <div class="benefit_wrapper">
+              <i class="fa-solid fa-repeat benefit_icon"></i>
+              <h4 class="benefit_title">Unlimited Rebuilds</h4>
+              <p class="benefit_p">So We just designed Your Website, but you don't like it? Don't Worry! We are open to any rebuilds that you will tell us!.</p>
             </div>
-            <div class="first_section">
-                <p class="a-p">We are passionate about coding any of the websites that YOU want. Developing websites is our passion.</p>
+          </div>
+          <div class="benefit">
+            <div class="benefit_wrapper">
+              <i class="fa-solid fa-money-bill-1-wave benefit_icon"></i>
+              <h4 class="benefit_title">Cheap Prices</h4>
+              <p class="benefit_p">Every offert that will make you a "cool" Website, are totally overpriced! That's why We're here trying to help for your Better, Cheaper career journey!</p>
             </div>
-            <div class="second_section">
-                <div class="second_section-wrapper">
-                    <figure class="img">
+          </div>
+          <div class="benefit">
+            <div class="benefit_wrapper">
+              <i class="fa-solid fa-users benefit_icon"></i>
+              <h4 class="benefit_title">Client Service</h4>
+              <p class="benefit_p">Client Service is super important for Us! We are almost every hour Online! If you have any questions, let us know!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                    </figure>
-                    <div class="person">
-                        <h3 class="name">Mateusz Kretkowski</h3>
-                        <p class="occupation">Fullstack Developer</p>
-                        <h6 class="person_subtitle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus ratione sit illo eveniet velit, hic mollitia unde voluptates fugit, enim sed saepe similique aperiam omnis alias, quibusdam obcaecati sunt laborum!</h6>
-                        <button class="arrow_right"></button>
-                    </div>
+    <section id="pricing">
+      <div class="texts">
+        <h1 class="section_title">PRICINGS</h1>
+        <h2 class="pricing_title">Reasonable <span class="text--purple">Prices.</span></h2>
+        <p class="pricing_para">Hope You Like That Cheap Prices!</p>
+      </div>
+      <div class="plans_container">
+        <div class="plan">
+          <div class="plan_header">
+                <span class="name">NORMAL</span>
+                <span class="price">$59.99 - $89.99</span>
+                <span class="duration">One-Time Purchase</span>
+              </div>
+              <div class="plan_features">
+                <span class="main_feature">BENEFITS</span>
+                <span class="feature feature_bigger">Production Time: 1-2 Days</span>
+                <span class="feature feature_bigger">Design Out Of Earth</span>
+                <span class="feature feature_big">Unlimited Reworks</span>
+                <span class="feature feature_big">24/7 Support</span>
+                <span class="feature feature_big">Full-Live Server</span>
+                <span class="feature">Interactable Features</span>
+                <span class="feature">Mobile Support</span>
+                <span class="feature">Animations</span>
+                <span class="feature"></span>
+              </div>
             </div>
         </div>
+      </div>
     </section>
-</body>
+
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <div class="benefits_titles">
+            <h1 class="sectiontitle">Projects</h1>
+            <h3 class="benefits_h3">Here's Some Of Our Projects That We Made Up</h3>
+          </div>
+            <ul class="projectlist">
+            <li class="project">
+              <div class="projectwrapper">
+                <img src="./assets/my project.png" class="projectimg" alt="">
+                <div class="projectwrapper--bg"></div>
+                <div class="projectdescription">
+                  <h3 class="projectdescription--title">
+                    TReact Template Rectreation
+                  </h3>
+                  <h4 class="projectdescription--sub-title">
+                    Html, CSS, JS
+                  </h4>
+                  <p class="projectdescription--para">
+                    TReact is a website with a huge number of templates for users all over the world. I recreated one.
+                  </p>
+                  <div class="projectdescription--links">
+                    <a href="./assets/my project.png" class="project__description--link">
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="team">
+      <h1 class="section_title">Our Team</h1>
+      <div class="opinion">
+        <span class="title">Amazing User Experience</span>
+        <p class="quality_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere mollitia quis tempora dolore iure ab magni sed distinctio nihil. Voluptate quae labore sint soluta. Et facere quisquam nisi totam nihil.</p>
+        <div class="person">
+          <div class="avatar">
+            <img src="./assets/307045704_781362646420925_7419410323941719189_n.jpg" class="avatar_img" alt="">
+          </div>
+          <div class="about">
+            <h6 class="name">Mateusz Kretkowski</h6>
+            <p class="name_para">mats inc.</p>
+          </div>
+          <div class="arrows">
+            <div class="left"><i class="fa-solid fa-arrow-left"></i></div>
+            <div class="right"><i class="fa-solid fa-arrow-right"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer_container">
+        <ul class="nav_links nav_ul">
+          <li class="nav_link footer_link">
+            <a href="" class="footer-hover">ABOUT US</a>
+          </li>
+          <li class="nav_link footer_link">
+            <a href="" class="footer-hover">PROJECTS</a>
+          </li>
+          <li class="nav_link footer_link">
+            <a href="" class="footer-hover">PRICING</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
